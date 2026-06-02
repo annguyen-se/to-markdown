@@ -1,0 +1,11 @@
+Windows Registry Editor Version 5.00
+
+; Adds a right-click context menu item named "Convert to Markdown" for all files.
+; Double-click this file to install it.
+
+[HKEY_CURRENT_USER\Software\Classes\*\shell\ConvertToMarkdown]
+@="Convert to Markdown"
+"Icon"="D:\\SE\\project\\to-markdown\\.venv\\Scripts\\pythonw.exe"
+
+[HKEY_CURRENT_USER\Software\Classes\*\shell\ConvertToMarkdown\command]
+@="\"D:\\SE\\project\\to-markdown\\.venv\\Scripts\\pythonw.exe\" \"D:\\SE\\project\\to-markdown\\convert_to_markdown_silent.pyw\" \"%1\""

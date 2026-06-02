@@ -1,0 +1,6 @@
+Windows Registry Editor Version 5.00
+
+; Removes the "Convert to Markdown" context menu item.
+; Double-click this file to uninstall it.
+
+[-HKEY_CURRENT_USER\Software\Classes\*\shell\ConvertToMarkdown]
