@@ -5,7 +5,7 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Classes\*\shell\ConvertToMarkdown]
 @="Convert to Markdown"
-"Icon"="D:\\SE\\project\\to-markdown\\.venv\\Scripts\\pythonw.exe"
+"Icon"="C:\\Users\\Admin\\Documents\\to-markdown\\.venv\\Scripts\\pythonw.exe"
 
 [HKEY_CURRENT_USER\Software\Classes\*\shell\ConvertToMarkdown\command]
-@="\"D:\\SE\\project\\to-markdown\\.venv\\Scripts\\pythonw.exe\" \"D:\\SE\\project\\to-markdown\\convert_to_markdown_silent.pyw\" \"%1\""
+@="\"C:\\Users\\Admin\\Documents\\to-markdown\\.venv\\Scripts\\pythonw.exe\" \"C:\\Users\\Admin\\Documents\\to-markdown\\convert_to_markdown_silent.pyw\" \"%1\""
